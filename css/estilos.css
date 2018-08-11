@@ -1,0 +1,614 @@
+@font-face {
+    font-family: 'NovecentoNormal';
+    src: url('../fonts/Novecentowide-Normal-webfont.eot');
+    src: url('../fonts/Novecentowide-Normal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Novecentowide-Normal-webfont.woff') format('woff'),
+         url('../fonts/Novecentowide-Normal-webfont.ttf') format('truetype'),
+         url('../fonts/Novecentowide-Normal-webfont.svg#NovecentowideNormalRegular') format('svg');
+    font-weight: 300;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'NovecentoNormal';
+    src: url('../fonts/Novecentowide-Medium-webfont.eot');
+    src: url('../fonts/Novecentowide-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Novecentowide-Medium-webfont.woff') format('woff'),
+         url('../fonts/Novecentowide-Medium-webfont.ttf') format('truetype'),
+         url('../fonts/Novecentowide-Medium-webfont.svg#NovecentowideUltraLightBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NovecentoNormal';
+    src: url('../fonts/Novecentowide-DemiBold-webfont.eot');
+    src: url('../fonts/Novecentowide-DemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Novecentowide-DemiBold-webfont.woff') format('woff'),
+         url('../fonts/Novecentowide-DemiBold-webfont.ttf') format('truetype'),
+         url('../fonts/Novecentowide-DemiBold-webfont.svg#NovecentowideLightBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+body {
+	background: #0f0f0f; 
+	font-size:62.5%;
+	font-family: 'NovecentoNormal', Arial, sans-serif;
+}
+o * {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 1em;
+}
+ul, ol {
+	list-style: none;
+	overflow: hidden;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+img { border: 0; }
+
+#contenedor {
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+header {
+	width: 21.5%;
+	margin: 3% 1.5% 0 0; 
+	display: block;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+}
+
+img#logo {/*margin-bottom: 45px;*/ width: 100%; max-width: 190px;}
+
+/* Botonera */
+#menu-icon { display: none;}
+
+nav#botonera {
+	width: 100%;
+	min-width: 116px;
+/*	margin: 0 10%;*/
+	text-align: left;
+}
+nav#botonera #menutodo ul {
+	padding: 0;
+}
+#menu li{
+	width: 100%;
+	padding: 12px 0;
+	display: block;
+}
+#menu  li.last {border-bottom: none;}
+
+#menu li > a {
+	display: block;
+	font-weight: 300;
+	font-size: 1.8em;
+	line-height: 20px;
+	padding-left:15px;
+	text-indent:-15px;
+}
+#menu  li li.selected a,
+#menu  li a:hover {
+	font-weight: 600;
+}
+#menu  li li.selected a{
+	cursor:default;
+}
+
+ul.redes { padding: 0 10px;}
+footer ul.redes { padding: 0; margin: 0 -10px;}
+ul.redes li {
+	width: 25px;
+	height: 25px; 
+	margin:10px 20px 0 10px;
+	padding: 0;
+	border-bottom: none;
+	float:left;
+}
+ul.redes li a {
+	width: 25px;
+	height: 25px;
+	display: block;
+	padding:0;
+	background: url(../imgs/iconos.png) no-repeat 0 0;
+}
+ul.redes li a#fb {background-position: 0 0;}
+ul.redes li a#fb:hover {background-position: 0 -30px;}
+ul.redes li a#ig {background-position: -30px 0;}
+ul.redes li a#ig:hover {background-position: -30px -30px;}
+ul.redes li a#tb {background-position: -60px 0;}
+ul.redes li a#tb:hover {background-position: -60px -30px;}
+ul.redes li a#wa {background-position: -90px 0;}
+ul.redes li a#wa:hover {background-position: -90px -30px;}
+
+ul.redes.footer {display:none;}
+
+nav#botonera #menutodo ul li.headerbar ul.subnav {
+	display: block;
+	margin-left: 10px;
+	overflow: hidden;
+	max-height: 0;
+	transition: max-height .5s ease .3s; 
+}
+nav#botonera #menutodo ul li.headerbar:hover ul.subnav{
+	height: auto;
+	max-height: 300px;	
+}
+
+nav#botonera #menutodo ul li.headerbar ul.subnav li {
+	border-bottom: none; 
+	padding: 10px 0 0 0;
+}
+nav#botonera #menutodo ul li.headerbar ul.subnav li a {
+	color: #a1a1a1;
+	font-size: 1.4em;
+	line-height: 1.4em;
+	text-indent:0;
+	padding-left:0;
+}
+
+.bordo {color:#9b0000}
+.rojo {color: #c3272f}
+.coral {color: #eb424f}
+.naranja1 {color: #f15b28}
+.naranja2 {color: #f48820}
+.naranja3 {color: #fcb03c}
+.amarillo {color: #f6ee25}
+.amarillo2 {color: #f7f49c}
+
+.bgnaranja2 {background: #f48820}
+
+/* Home */
+section#home { width:77%; margin: 0; padding: 0; display: block; overflow: hidden;}
+section#home ul{
+	margin:0 -10px;
+	padding: 0;
+}
+section#home ul li {width: calc(25% - 20px) ; float:left; overflow: hidden; padding: 0 10px; margin: 10px 0;}
+section#home ul li a{
+	display: block;
+	overflow: hidden;
+	width:100%;
+	height: 100%;
+}
+section#home ul li img {width: 100%; display: block;}
+section#home ul li.show1 { display: none;}
+section#home ul li.show2 { display: none;}
+
+/* Secciones */
+section#galeria  {
+	width:77%; 
+	max-width: 930px; 
+	margin: 4% 0 ; 
+	padding: 0; 
+	display: block; 
+	float: left; 
+	overflow: hidden; 
+	text-align: right;
+}
+section#galeria .slides em{
+	position:absolute;
+	bottom: 0;
+	left:50%;
+	padding:2px 5px;
+	font-style:normal;
+	font-size:11px;
+	color:#fff;
+	background: rgba(0,0,0,.5);
+	transform: translate3d(-50%,0,0);
+	z-index: 5;
+}
+section .titulo { 
+	width: 100%; 
+	display: block; 
+	text-align: right; 
+	margin-bottom: 60px; 
+	overflow: hidden;
+}
+section h1 {
+	font-weight: normal;
+	font-size: 3.6em;
+	display: inline;
+	margin-right: 8px;
+}
+section h2 {
+	font-size: 2.4em;
+	font-weight: 300;
+	color: #a1a1a1;
+	padding-top: 4px;
+	display: inline;
+}
+
+ul.soloCel {display: none;}
+section#galeria div.galeria {
+	width:90%; 
+	display: block;  
+	float: none; 
+	overflow: hidden; 
+	margin-left: 10%;}
+
+section#sobre, section#contacto {
+	width:77%; 
+	max-width: 930px; 
+	margin: 82px 0 0 0; 
+	padding: 0; 
+	display: block; 
+	float: left; 
+	overflow: hidden; 
+	text-align: left;
+}
+section#sobre article, 
+section#contacto article {
+	width: 90%; 
+	margin-left: 10%;
+}
+
+p {
+	font-family: Arial, sans-serif;
+	color: #a1a1a1;
+	text-align: left;
+	margin-bottom: 15px;
+	line-height: 1.5em;
+}
+
+h3 {
+	font-size: 1.8em;
+	color: #a1a1a1;
+	text-align: left;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+h4{
+	font-size: 1.4em;
+	color: #a1a1a1;
+	text-align: left;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+section p.hidden-txt{
+	height:0;
+	margin: 0;
+	padding:0;
+	overflow: hidden;
+}
+section#sobre li, 
+section#contacto li,
+section#sobre p, 
+section#contacto p {
+	font-family: Arial, sans-serif;
+	font-size: 1.6em;
+	color: #a1a1a1;
+	text-align: left;
+	padding-bottom: 20px;
+}
+section#contacto p a{
+	color: #f6ee25;
+}
+section#contacto p a:hover{
+	color:#eb424f;
+}
+
+section#sobre ul{
+	list-style: url(../imgs/item.png);
+	padding-left: 15px;
+}
+
+#fotorod {
+	width: 35%;
+	float: left;
+}
+#fotorod img {width: 100%;}
+
+div.float { width: 60%; margin-right: 5%; float: left;}
+
+footer{
+	clear: both;
+	display: flex;
+	padding: 20px 0;
+	border-top: 1px solid #a1a1a1;
+	font-family: Arial, sans-serif;
+	font-size: 1.2em; 
+	text-align: left; 
+	color: #a1a1a1; 
+	margin: 80px -10px 40px; 
+	flex-direction:row;
+}
+footer .logo{
+	width: 30%;
+}
+footer > div{
+	width: 33.33%;
+	padding: 0 10px;
+}
+footer h3{
+	margin: 0 0 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #a1a1a1;
+	font-size: 16px;
+}
+footer p{
+	font-size: 14px;
+}
+footer p a{
+	color: #eb424f;
+}
+.hide905 {display: block;}
+
+
+@media screen and (min-width:1400px) {
+	#contenedor{
+		width: 1400px;
+	}
+}
+@media screen and (max-width:1060px) {
+	.show3{ display:none;}
+	section#home ul li{
+		width: calc(33.33% - 20px);
+	}
+}
+	
+@media screen and (max-width:905px) {
+	.hide905 { display: none;}
+
+}
+.mobile{
+	display: none;
+}
+
+@media screen and (min-width:640px) and (max-width:905px) {	 
+	#contenedor {
+		width: 95%;
+	}
+	header {
+		width: 30%;
+		margin: 5% 1.5% 0 0; 
+		position: fixed;
+		top: 0;
+	}
+	img#logo {width: 80%;}
+
+	nav#botonera {
+		width: 80%;
+		min-width: 116px;
+		margin: 0 10%;
+		text-align: left;
+	}
+
+	nav#botonera #menutodo ul li a {
+		font-size: 1.4em;
+		line-height: 16px;
+	}
+	nav#botonera #menutodo ul li a:hover {
+	}
+	nav#botonera #menutodo ul li.headerbar ul.subnav li a {
+		font-size: 0.8em;
+		line-height: 0.8em;
+	}
+
+	section#home { width:68.5%; margin: 0 0 0 31.5%; padding: 0; display: block; overflow: hidden;}
+	section#home ul li {width: 195px; height: 204px; margin: 5px; }
+
+	section#galeria, section#sobre, section#contacto { width:68.5%; margin: 96px 0 0 28% ; padding: 0; display: block; overflow: hidden;}
+	#fotorod { display: none; }
+	div.float {width: 100%;}
+	form {
+	width: 100%;
+	}
+
+}
+
+@media screen and (max-width:639px) {
+	ul.soloCel {
+		display: block;
+		width: 100%;
+		padding:0;
+	}
+	ul.soloCel li {
+		width: 45%;
+		margin: 2.5%;
+		padding: 4px 0;
+		float: left;
+		text-align: center;
+		background: #252525;
+		height:40px;
+	}
+	ul.soloCel li.selected{background: #eb424f !important}
+	ul.soloCel li span{ display:none;}
+	ul.soloCel li a {
+		font-size: 1em;
+		font-weight: normal;
+		width: 100%;
+		height: 100%;
+		color:#eb424f;
+	}
+	ul.soloCel li.selected a {
+		color: #252525;
+	}
+
+
+	.bgrojo {background: #c3272f !important}
+	.bgcoral {background: #eb424f !important}
+	.bgnaranja2 {background: #f48820 !important}
+
+	section h1 span{display: none}
+	h2.hide {display: none;}
+	form {display: none;}
+	footer .logo{
+		width: 50%;
+	}
+}
+
+@media screen and (min-width:460px) and (max-width:639px) {
+	#contenedor {
+		width: 95%;
+	}
+	header {
+		width: 40%;
+		margin: 5% 0 15px 0; 
+	}
+	header img#logo {width: 150px; margin-bottom: 15px; }
+
+	nav#botonera {
+		width: 80%;
+		margin: 0 10%;
+		text-align: left;
+	}
+	nav#botonera #menutodo { display: block; }
+	nav#botonera #menutodo ul li{
+		padding: 0;
+		border-bottom: none;
+	}
+	nav#botonera #menutodo ul li a {
+		font-size: 1.2em;
+		line-height: 16px;
+		padding: 6px 0;
+		text-indent:10px;
+	}
+	nav#botonera #menutodo ul.redes li  a {
+		padding: 0;
+	}
+	nav#botonera #menutodo ul li a span{ display:none;}
+	nav#botonera #menutodo ul li a:hover {
+		font-size: 1.2em;
+		line-height: 16px;
+	}
+	nav#botonera #menutodo ul li.headerbar ul.subnav {
+		display: none !important;
+	}
+
+	section#home { width:57%; margin: 0 0 0 43%; padding: 0; display: block; overflow: hidden;}
+	section#home ul li {width: 110px; height: 115px; margin: 8px; }
+	section .titulo {margin-bottom: 20px;}
+
+	section#galeria, section#sobre, section#contacto { width:57%; margin-top: 67px; padding: 0; display: block; overflow: hidden;}
+	section#galeria div.galeria { width: 100%; margin: 0;}
+
+	#fotorod { display: none; }
+	div.float {width: 100%;}
+
+	.hide480 { display: none;}
+}	 
+
+@media screen and (max-width:459px) {
+
+	.pc{
+		display:none;
+	}
+	.mobile:{
+		display: block;
+	}
+	#contenedor {
+		width: 100%;
+		max-width: 460px;
+	}
+	header {
+		width: 100%;
+		margin: 5% 0 15px 0; 
+		float: none;
+	}
+	header img#logo { margin: 0; }
+	header h1 {float: left; margin: 0 0 0 0px;  }
+	ul.soloCel {
+		padding:0;
+	}
+	
+	nav#botonera {
+		width: 100%;
+		margin: 0px;
+	}
+	nav#botonera #menu-icon { 
+		display: block;
+		width: 33px;
+		height: 27px;
+		background: url(../imgs/icono_menu.png) no-repeat 6px 6px;
+		margin-top: 53px;
+		float: right;
+		overflow: hidden;
+		padding: 6px;
+	}
+
+	nav#botonera a#menu-icon.menuactive {
+		background: url(../imgs/icono_menu_close.png) no-repeat 6px 6px #252525;
+	}
+	nav#botonera #menutodo ul li a {
+		font-weight: 600;
+	}
+	nav#botonera #menutodo ul li a span{ display:none;}
+	nav#botonera #menutodo {
+		display: none;
+		overflow: hidden;
+		float: left;
+		width: 100%;
+		background: #252525;
+	}
+	nav#botonera #menutodo ul#menu {
+		width: 100%;
+		padding: 0 5%;
+		position: relative;
+		top: 0px;
+		float: left;
+		overflow: hidden;
+	}
+	nav#botonera #menutodo ul#menu li {
+		width: 95%;
+		float: left;
+		margin-right: 5%;
+	}
+	nav#botonera #menutodo ul.redes {
+		float: left;
+		overflow: hidden;
+		width: 95%;
+	}
+	nav#botonera #menutodo ul li.headerbar ul.subnav { display: none !important; }
+	
+	section#sobre article, section#contacto article{
+		margin: 0;
+	}
+	section#home { width:100%; margin: 0; padding: 0; display: block; overflow: hidden;}
+	section#home ul { padding:0;}
+	section#home ul li {width: 100%; height: auto; margin: 10px; overflow: hidden; }
+
+	section#galeria, section#sobre, section#contacto { width:100%; margin: 0; padding: 0; display: block; overflow: hidden;}
+	section#galeria div.galeria { width: 100%; margin: 0;}
+	section .titulo {margin-bottom: 20px;}
+
+	#fotorod { display: none; }
+	div.float {width: 100%; margin:0;}
+
+	.hide480, .hide320 {visibility: hidden; display: none;}
+	#botonera ul.redes.footer {display:none;}
+	ul.redes.footer {
+		display:inline-block;
+		position: relative;
+		left:50%;
+		transform:translate(-50%,0);
+	}
+	footer {
+		flex-direction: column-reverse;
+	}
+	footer > div{
+		width: auto;
+		padding-bottom: 40px;
+	}
+}
+@media screen and (min-width:1250px) {
+	section#home ul li.show3 {display: block !important; }
+}
+@media screen and (min-width:1330px) {
+	section#home ul li.show1 {display: block !important; }
+}
+@media screen and (min-width:1660px) {
+	section#home ul li.show2 {display: block;}
+}
+
+#contacto .container{ display:none; background:#0f0f0f; padding:10px; margin-bottom:20px; font-size:11px; color: #f0f0f0}
+#contacto .container h4{ font-size:12px;}
+#contacto .container ol { font-size:11px;}

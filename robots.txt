@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+Disallow: /arte7.php
+Disallow: /arte6.php
+Disallow: /macro_abst.php
+Disallow: /macro_natu.php
+Disallow: /contraluz.php
+Disallow: /desnudo_hombre.php
+Disallow: /desnudo_mujer.php

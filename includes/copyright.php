@@ -1,0 +1,1 @@
+			<footer>©Rodolfo Dominguez - Fotografía de Rod<br><br>Todos los derechos reservados. Prohibida la reproducción parcial o total sin la autorizacion del autor.<br><br>All rights reserved. Reproduction in whole or part without the author's permission.</footer>
