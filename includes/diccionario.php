@@ -26,7 +26,7 @@
 	$desc[1] = 'Contacto > Fotografía de Rod. Contactate para hacerte una sesión de fotos, por teléfono o WhtasApp. Respondo a la brevedad posible.';
 	$keywords[1] = 'contact, contacto, sesiones, sesión, books, fotos, photos, whatsapp';
 	$folder[1] = '';
-	$parrafo[1] = 'Contactate para hacerte una sesión de fotos de book o de desnudo artístico. Podés comunicarte por teléfono o Whatsapp y coordinamos día y horario para poder realizarla. También doy clases de fototrafía básica. Si estás interesado, podemos arreglar horarios. Tené en cuenta que son 12 clases de hora y media cada una. Teóricas prácticas.';
+	$parrafo[1] = '<strong>Fotografía de Rod</strong>. Contactate para hacerte una <em>sesión de fotos de book</em> o de <em>desnudo artístico</em>. Podés comunicarte por teléfono o Whatsapp y coordinamos día y horario para poder realizarla. También doy <strong>clases de fototrafía básica</strong>. Si estás interesado, podemos arreglar horarios. Tené en cuenta que son 12 clases de hora y media cada una. Teóricas prácticas. Tu pregunta es bienvenida.';
 	
 	// Sobre - 2
 	$pagina[2]= "Sobre Rod";

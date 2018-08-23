@@ -4,7 +4,7 @@
 	$desc[101] = 'Afrodita - Desnudología > Fotografía de Rod. Arte y fotografía. Afrodita - Desnudología producción Carolina Atuesta. ';
 	$keywords[101] = 'fotografía, photography, foto, photo, arte, art, desnudologia, afrodita, carolina atuesta';
 	$folder[101] = 'arte1';
-	$parrafo[101] = '';
+	$parrafo[101] = '<strong>Fotografía de Rod</strong>. Realización de fotos producidas por Carolina Atuesta para su sesión de Desnudología. En esta oportunidad <strong>Fotografía de Rod</strong> pudo participar en la sesión inspirada en el libro Afrodita. Esta sesión de fotografía desarrolla la presentación de la mujer para atraer al hombre en su pasión por el amor. Desnudología es una producción realizada por Carolina Atuesta para mostrar que el cuerpo humano no tiene prejuicios en mostrar y contar a través del cuerpo desnudo todos sus sentimiento y sufrimientos.';
 	$files[101] = array(
 		array(
 				'alt' => 'Afrodita - Desnudología',

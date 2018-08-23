@@ -120,9 +120,6 @@ Abril de 2015, Arte y Fotografía en el Nahuel, Nahuel Rowing Club.
 					</ul>
 			</div>
 			<div id="fotorod"><img src="imgs/rodo.jpg" title ="Rod" bordero="0"></div>
-<?php
-	include 'includes/copyright.php';
-?>
 		</article>
 	</section>
 
