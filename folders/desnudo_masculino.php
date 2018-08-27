@@ -5,6 +5,7 @@
 	$desc[20] = 'Desnudo Masculino > Fotografía de Rod. Fotos artísticas de desnudo masculino.';
 	$keywords[20] = 'fotografía, photography, foto, photo, desnudo, femenino, desnudo masculino, nude, male nude, art, arte';
 	$folder[20] = 'desnudo_masculino';
+	$parrafo[20] = '';
 	$files[20] = array(
 		array(
 				'alt' => 'Desnudo Masculino - Franco',

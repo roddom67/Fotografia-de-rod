@@ -4,6 +4,7 @@
 	$desc[10] = 'Retratos > Fotografía de Rod. Retratos artísticos y de books profesionales.';
 	$keywords[10] = 'fotografía, photography, foto, photo, retratos, portrait, art, arte, books, books profesionales';
 	$folder[10] = 'retratos';
+	$parrafo[10] = '';
 	$files[10] = array(
 		array(
 				'alt' => 'Retrato Masculino Wenceslao en Clave baja',

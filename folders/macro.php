@@ -5,6 +5,7 @@
 	$desc[40] = 'Macro > Fotografía de Rod, Fotografía de macro en la naturaleza.';
 	$keywords[40] = 'fotografía, photography, foto, photo, arte, art, macro, naturaleza';
 	$folder[40] = 'macro';
+	$parrafo[40] = '';
 	$files[40] = array(
 		array(
 				'alt' => 'Macro',
