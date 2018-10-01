@@ -182,6 +182,12 @@ section#home ul li a{
 section#home ul li img {width: 100%; display: block;}
 section#home ul li.show1 { display: none;}
 section#home ul li.show2 { display: none;}
+.vermas{
+	color: #f6ee25;
+	margin: 20px auto;
+	display: inline-block;
+	
+}
 
 /* Secciones */
 section#galeria  {

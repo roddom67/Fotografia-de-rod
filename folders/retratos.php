@@ -1,6 +1,7 @@
 <?php
 	// Retratos	- 10
 	$pagina[10]= "Retratos"; // Retratos 1
+	$linkBlog[10] = "https://fotografiaderod.blogspot.com/search/label/retrato";
 	$desc[10] = 'Retratos > Fotografía de Rod. Retratos artísticos y de books profesionales.';
 	$keywords[10] = 'fotografía, photography, foto, photo, retratos, portrait, art, arte, books, books profesionales';
 	$folder[10] = 'retratos';
