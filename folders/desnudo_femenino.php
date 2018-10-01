@@ -5,6 +5,7 @@
 	$desc[21] = 'Desnudo Femenino > Fotografía de Rod. Fotos artísticas de desnudo femenino.';
 	$keywords[21] = 'fotografía, photography, foto, photo, desnudo,masculino, desnudo femenino, nude, female nude, art, arte';
 	$folder[21] = 'desnudo_femenino';
+	$parrafo[21] = '';
 	$files[21] = array(
 		array(
 				'alt' => 'Desnudo Femenino - Carolina Atuesta',
