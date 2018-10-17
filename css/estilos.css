@@ -188,6 +188,9 @@ section#home ul li.show2 { display: none;}
 	display: inline-block;
 	
 }
+.vermas:hover{
+	text-decoration: underline;
+}
 
 /* Secciones */
 section#galeria  {
