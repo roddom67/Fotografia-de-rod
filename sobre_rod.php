@@ -17,12 +17,14 @@
 				<p>En 1996 se recibe de Decorador Profesional. </p>
 				<p>Se dedicó a fotografiar con la cámara de su madre y luego siguió practicando con distintos tipos de cámaras, pocket, reflex, digitales.</p>
 				<p>En la actualidad, realiza trabajos de fotografía artística, tanto de bodegones como de personas. </p>
+	
 			 	<h3>Ensañanza</h3>
 			 	<ul>
 			 		<li>Mayo 2017 a la fecha, <strong>Curso Básico de fotografía</strong>, particular.</li>
 			 		<li>Diciembre 2016 a marzo 2017, <strong>Curso Básico</strong> en NX bajo el apoyo del Ministerio de Trabajo de la Nación.</li>
 					<li>Diciembre 2014 a Abril 2015, <strong>Curso Básico</strong> en NX bajo el apoyo del Ministerio de Trabajo de la Nación.</li>
 			 	</ul>
+			 	
 				<h3>Exposiciones</h3>
 					<h4>2016</h4>
 					<ul>
@@ -31,21 +33,20 @@
 					</ul>
 				
 					<h4>2015</h4>
-19 de diciembre de 2015, LaColectiBA, Exposición Fotográfica junto a FRACCTAL - La Paternal
-
-Abril de 2015, Arte y Fotografía en el Nahuel, Nahuel Rowing Club.
-
 					<ul>
+						<li>Diciembre, <strong>LaColectiBA</strong>, Exposición Fotográfica junto a FRACCTAL - La Paternal</li>
 						<li>Septiembre, <strong>Villa Ruiz y Actividad con globos</strong>, Marcelo Gurruchaga.</li>
 						<li>Mayo, <strong>Muestra fotográfica propia</strong>, Artistas ARtesanos Contemporáneos.</li>
 						<li>Abril, <strong>Arte y Fotografía en el Nahuel</strong>, Nahuel Rowing Club.</li>
 						<li>Abril, <strong>NX Arte 12ma. edición</strong>.</li>
 						<li>Marzo, <strong>Exposición Fotografía Colectiva</strong>, Ada Sacchi Cursos. CGP Distrito Comuna N° 13. Bs. As.</li>
 					</ul>
+					
 					<h4>2014</h4>
 					<ul>
 						<li>Junio, <strong>NX Arte 11ma. edición</strong>.</li>
 					</ul>
+					
 					<h4>2013</h4>
 					<ul>
 						<li>Noviembre, <strong>Muestra de Fotografia Alumnos de Michel y Claudia Marcu en ArtexArte</strong>.</li>
@@ -57,7 +58,10 @@ Abril de 2015, Arte y Fotografía en el Nahuel, Nahuel Rowing Club.
 			 	<h3>Cursos realizados</h3>
 			 		<h4>2018</h4>
 			 		<ul>
-			 			<li>Marzo, <strong>Maratón de Fotografía con Modelo en locación</strong>, Ada Sacci.</li>
+			 			<li>Julio, <strong>Dodge & Burn + Separación de Frecuencias</strong>, Gestión de color.net</li>
+			 			<li>Junio, <strong>Revelado RAW</strong>, Gestión de color.net</li>
+			 			<li>Junio, <strong>Gestión de color</strong>, Gestión de color.net</li>
+			 			<li>Marzo, <strong>Maratón de Fotografía con Modelo en locación</strong>, Ada Sacchi.</li>
 			 		</ul>
 			 		<h4>2017</h4>
 			 		<ul>
