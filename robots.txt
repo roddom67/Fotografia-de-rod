@@ -11,3 +11,4 @@ Disallow: /macro_natu.php
 Disallow: /contraluz.php
 Disallow: /desnudo_hombre.php
 Disallow: /desnudo_mujer.php
+Disallow: /blog
