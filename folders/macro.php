@@ -1,7 +1,7 @@
 <?php
 	// Macro - 40
 	$pagina[40]= "Macro";
-	$linkBlog[40] = "https://fotografiaderod.blogspot.com/search/label/macro";
+	$linkBlog[40] = "/blog/category/macro";
 	$cantidad[40] = 17;
 	$desc[40] = 'Macro > Fotografía de Rod, Fotografía de macro en la naturaleza.';
 	$keywords[40] = 'fotografía, photography, foto, photo, arte, art, macro, naturaleza';

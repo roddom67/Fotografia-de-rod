@@ -23,7 +23,7 @@
 			<ul class="redes">
 				<!--li><a href="http://www.facebook.com/FotografiaDeRod?fref=ts" target="_blank" id="fb" title="Facebook: FotografiaDeRod"></a></li-->
 				<li><a href="https://www.instagram.com/roddom67/" target="_blank" id="ig" title="Instagram: roddom67"></a></li>
-				<li><a href="https://fotografiaderod.tumblr.com/" target="_blank" id="tb" title="Blog de Rod"></a></li>
+				<!--li><a href="https://fotografiaderod.tumblr.com/" target="_blank" id="tb" title="Blog de Rod"></a></li-->
 				<li class="mobile"><a href="https://api.whatsapp.com/send?phone=5491140873213" id="wa" title="WhatsApp"></a></li>
 			</ul>
 		</div>

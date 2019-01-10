@@ -2,7 +2,7 @@
 	// Desnudos
 	// 	Masculinos - 20
 	$pagina[20] = "Desnudo Masculino"; // Desnudos - Masculinos 2
-	$linkBlog[20] = "https://fotografiaderod.blogspot.com/search/label/desnudo%20art%C3%ADstico";
+	$linkBlog[20] = "/blog/category/desnudo/masculino";
 	$desc[20] = 'Desnudo Masculino > Fotografía de Rod. Fotos artísticas de desnudo masculino.';
 	$keywords[20] = 'fotografía, photography, foto, photo, desnudo, femenino, desnudo masculino, nude, male nude, art, arte';
 	$folder[20] = 'desnudo_masculino';

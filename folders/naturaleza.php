@@ -1,7 +1,7 @@
 <?php
 	// Contraluz - 30
 	$pagina[30]= "Naturaleza y Arquitectura";
-	$linkBlog[30] = "https://fotografiaderod.blogspot.com/search/label/naturaleza";
+	$linkBlog[30] = "/blog/category/naturaleza";
 	$desc[30] = 'Naturaleza y Arquitectura > Fotografía de Rod. Fotos de naturaleza, paisajes, arguitectura y viajes que he realizado por el mundo.';
 	$keywords[30] = 'fotografía, photography, foto, photo, arte, art, naturaleza, paisajes, bodegones,';
 	$folder[30] = 'naturaleza';
