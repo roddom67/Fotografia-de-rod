@@ -1,0 +1,123 @@
+html,
+body,
+.site,
+.site-header,
+.site-footer,
+.site-main,
+#secondary,
+.content-area,
+.main-content{
+	background:#000;
+}
+#site-header{display:none;}
+#masthead{
+	padding:20px 0;
+}
+.paging-navigation{
+	border-color:#000;
+}
+.site-title{
+	position:relative;
+	background: url(http://fotografiaderod.com.ar/blog/wp-content/uploads/2018/12/cropped-logo_Rod.png) no-repeat 0 0;
+	background-size:100% ;
+	height:90px;
+	margin-bottom:20px;
+	width:190px;
+}
+.site-title a{
+	text-indent:-1000em;
+	height:100%;
+}
+.site-content .entry-header, .site-content .entry-content, .site-content .entry-summary, .site-content .entry-meta, .page-content{
+	max-width:90%;
+}
+#site-header{
+	background:#000;
+	padding: 20px
+}
+#site-header img{
+	max-width: 190px;
+}
+#content{
+	background:#000;
+	color:#f0f0f0;
+}
+#content footer{
+	background: #000;
+}
+.paging-navigation a{
+	color:#a1a1a1;
+}
+.paging-navigation a:hover{
+	color:#f1f1f1;
+	border-top-color:#c3272f;
+}
+.paging-navigation .page-numbers.current{
+	border-top-color:#c3272f;
+}
+.site-content .entry-meta,
+.site-content .entry-header,
+.site-content .entry-content, .site-content .entry-summary, .page-content{
+	background:none;
+}
+
+.secondary-navigation ul ul,
+.secondary-navigation li:hover > a, .secondary-navigation li.focus > a,
+.primary-navigation ul ul,
+.search-box,
+.search-toggle,
+.search-toggle:hover, .search-toggle.active,
+.primary-navigation li:hover > a, .primary-navigation li.focus > a{
+	background-color: #c3272f
+}
+
+
+.secondary-navigation ul ul a:hover, .secondary-navigation ul ul li.focus > a,
+.primary-navigation ul ul a:hover, .primary-navigation ul ul li.focus > a{
+	background-color:#eb424f
+}
+
+
+.author{display:none !important;}
+
+a,
+.site-navigation .current_page_item > a, .site-navigation .current_page_ancestor > a, .site-navigation .current-menu-item > a, .site-navigation .current-menu-ancestor > a,
+.entry-meta a:hover,
+.widget a:hover{color:#c3272f;}
+
+
+
+.tag-desnudo-artistico .cat-links a,
+.tag-desnudo .cat-links a,
+.tag-desnudo-artistico h1 a,
+.tag-desnudo h1 a{color:#9b0000 !important;}
+
+.tag-retrato .cat-links a,
+.tag-retrato h1 a{color:#c3272f !important;}
+
+.tag-macro .cat-links a,
+.tag-macro h1 a{color:#eb424f !important;}
+
+.tag-naturaleza .cat-links a,
+.tag-naturaleza h1 a{color:#f15b28 !important;}
+
+.tag-arte-fotografia .cat-links a,
+.tag-arte-fotografia h1 a{color:#f48820 !important;}
+
+a.post-thumbnail:hover,
+.post-thumbnail{background:#000;}
+
+.full-width .post-thumbnail img{
+	border:5px solid #fff;
+}
+.entry-content img,
+.entry-content a img, .entry-summary a img, .page-content a img, .comment-content a img{
+	border:5px solid #fff;
+	display:inline-block;
+}
+footer.site-footer #footer-sidebar{
+	border-top:1px solid #a1a1a1;
+}
+footer .logo{width:50%;}
+
+.site-info{display:none;}
