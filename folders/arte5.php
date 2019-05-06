@@ -4,7 +4,6 @@
 	$desc[105] = 'Sin rostro > Fotografía de Rod. Arte y fotografía.';
 	$keywords[105] = 'fotografía, photography, foto, photo, arte, art,';
 	$folder[105] = 'arte5';
-	$parrafo[105] = '';
 	$files[105] = array(
 		array(
 				'alt' => 'Sin rostro - Rodrigo',
