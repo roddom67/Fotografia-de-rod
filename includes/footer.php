@@ -54,7 +54,7 @@
   	<script src="js/jquery.easing.js"></script>
   	<script src="js/jquery.mousewheel.js"></script>
   	<script defer src="js/demo.js"></script>
-<script src="js/jquery.validate.min.js" type="text/javascript"></script>
+	<script src="js/jquery.validate.min.js" type="text/javascript"></script>
 
 <script>
 	$(document).ready(function($) {
@@ -73,6 +73,7 @@
 		$(".cancel").click(function() {
 			validator.resetForm();
 		});
+		
 	});
 		
 	
