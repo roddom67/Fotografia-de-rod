@@ -4,7 +4,6 @@
 	$desc[104] = 'La isla bajo el mar > Fotografía de Rod. Arte y fotografía. Desnudología producción Carolina Atuesta.';
 	$keywords[104] = 'fotografía, photography, foto, photo, arte, art,la isla bajo el mar, desnudologia, carolina atuesta';
 	$folder[104] = 'arte4';
-	$parrafo[104] = '';
 	$files[104] = array(
 		array(
 				'alt' => 'La isla bajo el mar - Laura y Pablo',

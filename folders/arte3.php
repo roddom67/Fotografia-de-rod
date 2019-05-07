@@ -4,7 +4,6 @@
 	$desc[103] = 'Desnudología > Fotografía de Rod. Arte y fotografía. Desnudología producción de Carolina Atuesta.';
 	$keywords[103] = 'fotografía, photography, foto, photo, arte, art,desnudologia, carolina atuesta';
 	$folder[103] = 'arte3';
-	$parrafo[103] = '';
 	$files[103] = array(
 		array(
 				'alt' => 'Desnudología - Pato, Laura Modelo Vivo, Carolina y Christian',

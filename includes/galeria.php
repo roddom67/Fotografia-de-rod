@@ -53,7 +53,7 @@
 	  <!-- Fin Slide -->
 	  <?php
 	  	if(isset($linkBlog[$n])){
-	  		echo '<a href="'.$linkBlog[$n].'" target="_blank" title="Ver más imágenes" class="vermas">Ver más imágenes</a>';	  	
+	  		echo '<a href="'.$linkBlog[$n].'" title="Ver más imágenes" class="vermas">Ver más imágenes</a>';	  	
 	  	}
 	  ?>
 

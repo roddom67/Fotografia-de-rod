@@ -11,7 +11,7 @@
 	
 	$pagina[0]= "";
 	$cantidad[0] = "";
-	$desc[0] = 'Fotografía de Rod. Fotos artísticas de desnudo, retratos, macro y naturaleza. WhatsApp: +54 9 11 4087 3213. Books, Sesiones artísticas, Clases de fotografía básica.';
+	$desc[0] = 'Fotografía de Rod. Fotos artísticas de desnudo, retratos, macro y naturaleza. WhatsApp: +54 9 11 4087 3213. Books, Sesiones artísticas.';
 	$keywords[0] = 'nude, desnudo, art, arte, macro, photography, books, sesiones, sesión, ';
 	$folder[0] = '';
 	$parrafo[0] = '<strong>Fotografía de Rod</strong>. Muestra fotográfica de los trabajos realizados por <strong>Rodolfo Dominguez</strong>. <br>
@@ -23,10 +23,10 @@
 	// Contacto - 1
 	$pagina[1]= "Contacto";
 	$cantidad[1] = '';
-	$desc[1] = 'Contacto > Fotografía de Rod. Contactate para hacerte una sesión de fotos o por cursos de fotografía básica. Teléfono o WhatsApp +54 9 11 4087 3213.';
+	$desc[1] = 'Contacto > Fotografía de Rod. Contactate para hacerte una sesión de fotos, por teléfono o WhtasApp. Respondo a la brevedad posible.';
 	$keywords[1] = 'contact, contacto, sesiones, sesión, books, fotos, photos, whatsapp';
 	$folder[1] = '';
-	$parrafo[1] = '<strong>Fotografía de Rod</strong>. Contactate para hacerte una <em>sesión de fotos de book</em> o de <em>desnudo artístico</em>. Podés comunicarte por teléfono o WhatsApp y coordinamos día y horario para poder realizarla. También doy <strong>clases de fototrafía básica</strong>. Si estás interesado, podemos arreglar horarios. Tené en cuenta que son 12 clases de hora y media cada una. Teóricas prácticas. Tu pregunta es bienvenida.';
+	$parrafo[1] = '<strong>Fotografía de Rod</strong>. Contactate para hacerte una <em>sesión de fotos de book</em> o de <em>desnudo artístico</em>. Podés comunicarte por teléfono o Whatsapp y coordinamos día y horario para poder realizarla. También doy <strong>clases de fototrafía básica</strong>. Si estás interesado, podemos arreglar horarios. Tené en cuenta que son 12 clases de hora y media cada una. Teóricas prácticas. Tu pregunta es bienvenida.';
 	
 	// Sobre - 2
 	$pagina[2]= "Sobre Rod";

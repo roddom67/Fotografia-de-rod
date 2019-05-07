@@ -4,6 +4,7 @@
 	
 	include 'includes/header.php';
 ?>
+
 	<section id="home">
 		<ul>
 		<?php

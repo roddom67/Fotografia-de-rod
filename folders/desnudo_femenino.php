@@ -1,7 +1,7 @@
 <?php
 	// Femeninos - 21
 	$pagina[21] = "Desnudo Femenino"; // Desnudos - Femenino 3
-	$linkBlog[21] = "https://fotografiaderod.blogspot.com/search/label/desnudo%20art%C3%ADstico";
+	$linkBlog[21] = "/blog/category/desnudo/femenino";
 	$desc[21] = 'Desnudo Femenino > Fotografía de Rod. Fotos artísticas de desnudo femenino.';
 	$keywords[21] = 'fotografía, photography, foto, photo, desnudo,masculino, desnudo femenino, nude, female nude, art, arte';
 	$folder[21] = 'desnudo_femenino';
