@@ -33,8 +33,8 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 	<?php if ( get_header_image() ) : ?>
-	<div id="site-header">
-		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+	<div id="site-header" style="display:none;">
+		<a href="http://fotografiaderod.com.ar/" rel="home" class="sitioweb">
 			<img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
 		</a>
 	</div>
@@ -42,7 +42,7 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="header-main">
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			<h1 class="site-title"><a href="http://fotografiaderod.com.ar/" rel="home" class="sitioweb"><?php bloginfo( 'name' ); ?></a></h1>
 
 			<div class="search-toggle">
 				<a href="#search-container" class="screen-reader-text" aria-expanded="false" aria-controls="search-container"><?php _e( 'Search', 'twentyfourteen' ); ?></a>

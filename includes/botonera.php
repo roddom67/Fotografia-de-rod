@@ -28,7 +28,7 @@
 				</ul>
 			</li>
 
-			<li><a href="http://fotografiaderod.blogspot.com.ar/" class="naranja3" title="Blog" target="_blank">&raquo; Blog</a></li>
+			<li><a href="/blog/" class="naranja3" title="Últimas imágenes">&raquo; Últimas imágenes</a></li>
 			<li><a href="sobre_rod.php" class="amarillo" title="Sobre Rod">&raquo; Sobre Rod</a></li>
 			<li class="last"><a href="contacto.php" class="amarillo2" title="Contacto">&raquo; Contacto</a></li>
             <!-- class="amarillo" -->
